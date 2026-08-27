@@ -1,0 +1,45 @@
+{
+  "eval_set_id": "checker_high_risk_contract_set",
+  "name": "Checker high-risk contract smoke eval",
+  "description": "Baseline quality check before adding more agents. Expect HIGH overall risk and PDF tool use.",
+  "eval_cases": [
+    {
+      "eval_id": "high_risk_msa_assessment",
+      "conversation": [
+        {
+          "invocation_id": "bench-high-risk-001",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Assess this contract for legal risk against our guidelines and generate the PDF report.\n\nSAMPLE SERVICES AGREEMENT\n1. Limitation of Liability: Provider liability is unlimited; no consequential damages waiver.\n2. Indemnification: Broad uncapped indemnity for breach and ordinary negligence.\n3. Intellectual Property: All Provider background IP assigned to Customer as work-for-hire.\n4. Termination: Auto-renewal with 15-day notice; termination for convenience without fees; no cure period.\n5. Payment: Net 75; unilateral price increases without notice.\n6. Scope: Acceptance by sole satisfaction; 24-hour deemed acceptance.\n7. SLA: Uncapped liquidated damages; immediate termination for any SLA miss.\n8. Data Privacy: Personal data processed; no DPA; uncapped breach liability."
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Overall contract risk is HIGH. A PDF risk report was generated covering Liability, Termination, Intellectual Property, and Operational & Business findings."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "name": "generate_risk_report",
+                "args": {}
+              }
+            ],
+            "intermediate_responses": []
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "contracts_risk_assessment",
+        "user_id": "eval_user",
+        "state": {}
+      }
+    }
+  ]
+}

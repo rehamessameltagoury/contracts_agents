@@ -1,0 +1,42 @@
+SAMPLE SERVICES AGREEMENT (for agent performance testing)
+
+This Agreement is entered into between Acme Corp ("Customer") and VendorCo LLC ("Provider").
+
+1. Limitation of Liability
+Provider's liability under this Agreement shall be unlimited. There is no cap on damages.
+Customer shall have no consequential damages waiver. Provider remains fully liable for all indirect,
+special, punitive, and lost-profit damages.
+
+2. Indemnification
+Provider shall indemnify, defend, and hold harmless Customer from any and all claims arising from
+breach of contract or ordinary negligence, without any monetary cap. Customer shall have sole control
+of the defense.
+
+3. Intellectual Property
+All Provider pre-existing background IP, tools, methods, and platforms used in performing the Services
+are hereby assigned to Customer as work-made-for-hire. Customer owns all such materials exclusively.
+
+4. Termination
+This Agreement auto-renews for successive one-year terms unless Customer provides written notice of
+non-renewal at least fifteen (15) days prior to the renewal date. Customer may terminate for convenience
+at any time without compensation or unwinding fees. There is no cure period for material breach.
+
+5. Payment Terms
+Customer shall pay invoices within seventy-five (75) days of receipt. Provider may increase fees at any
+time without prior notice or termination rights for Customer.
+
+6. Scope and Acceptance
+Deliverables are accepted when Customer is "satisfied" in its sole discretion. Failure to reject within
+twenty-four (24) hours constitutes deemed acceptance. Scope changes may be directed orally.
+
+7. Service Levels
+Provider shall pay uncapped liquidated damages for any SLA miss. Customer may terminate immediately
+for any SLA breach, including minor breaches, with no cure period.
+
+8. Data Privacy
+Provider will process personal data of Customer's end users. No Data Processing Addendum is attached.
+Liability for data security incidents is uncapped.
+
+9. Governing Law
+This Agreement is governed by the laws of an unfavorable foreign jurisdiction chosen solely by Customer,
+with dispute resolution only in that forum and no negotiation escalation step.
